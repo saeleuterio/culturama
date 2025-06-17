@@ -43,7 +43,7 @@
     max-width: 400px;
 }
 
-/*Agenda ATIVIDADE PARA SABER MAIS */
+/* Agenda */
 
 .agenda__lista {
     display: flex;
@@ -55,6 +55,18 @@
 
 .agenda__item {
     flex-grow: 1;
+}
+
+/* Rodapé */
+
+.rodape {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rodape__logo {
+    align-self: end;
 }
 
 @media (min-width: 720px) {
